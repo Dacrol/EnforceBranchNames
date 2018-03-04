@@ -1,0 +1,11 @@
+{
+  "name": "EnforceBranchNames",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "Dacrol <jonas.ahrens@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "husky": "^0.15.0-rc.8"
+  }
+}
