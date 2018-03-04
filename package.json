@@ -1,11 +1,18 @@
 {
-  "name": "EnforceBranchNames",
+  "name": "enforce-branch-names",
   "version": "0.0.0",
-  "main": "index.js",
+  "main": "enforce.js",
   "author": "Dacrol <jonas.ahrens@gmail.com>",
   "license": "MIT",
-  "private": true,
   "dependencies": {
     "husky": "^0.15.0-rc.8"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dacrol/EnforceBranchNames.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dacrol/EnforceBranchNames/issues"
+  },
+  "homepage": "https://github.com/Dacrol/EnforceBranchNames#readme"
 }
