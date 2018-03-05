@@ -20,8 +20,8 @@ Branch name: \x1b[36m%s\x1b[0m (Valid)
 } else {
   console.log(
     `---
-  Branch name: \x1b[31m%s\x1b[0m (Invalid)
-  ---`,
+Branch name: \x1b[31m%s\x1b[0m (Invalid)
+---`,
     branchName
   )
   process.exit(1)
