@@ -18,11 +18,6 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "node enforce.js",
-      "push-to-checkout": "node enforce.js",
-      "update": "node enforce.js",
-      "post-checkout": "node enforce.js",
-      "pre-receive": "node enforce.js",
       "pre-push": "node enforce.js"
     }
   },
