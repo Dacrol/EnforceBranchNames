@@ -1,4 +1,8 @@
 const branch = require('./node-current-branch/get-branch')
 
-console.log('---\nGit branch: ' + branch() + '\n---')
+const branchName = branch()
+console.log(`---
+Branch name: ${branchName}
+---`)
+
 process.exit(0)
