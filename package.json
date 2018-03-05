@@ -1,5 +1,5 @@
 {
-  "name": "enforce-branch-names",
+  "name": "enforce-gitflow-branches",
   "version": "0.0.0",
   "main": "enforce.js",
   "author": "Dacrol <jonas.ahrens@gmail.com>",
