@@ -1,6 +1,7 @@
 {
   "name": "enforce-gitflow-branches",
   "version": "1.0.1",
+  "description": "Enforces Git branch names according to the Git Flow branching model",
   "main": "export.js",
   "author": "Dacrol <jonas.ahrens@gmail.com>",
   "license": "MIT",
