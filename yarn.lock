@@ -733,6 +733,10 @@ natural-compare@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
 
+node-current-branch@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/node-current-branch/-/node-current-branch-1.0.1.tgz#a9c1b1f0f32b828d5c915780df2f914bde97b2ab"
+
 normalize-package-data@^2.3.2:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/normalize-package-data/-/normalize-package-data-2.4.0.tgz#12f95a307d58352075a04907b84ac8be98ac012f"
