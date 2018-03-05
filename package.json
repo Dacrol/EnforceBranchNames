@@ -1,6 +1,6 @@
 {
   "name": "enforce-gitflow-branches",
-  "version": "0.0.0",
+  "version": "1.0.1",
   "main": "export.js",
   "author": "Dacrol <jonas.ahrens@gmail.com>",
   "license": "MIT",
