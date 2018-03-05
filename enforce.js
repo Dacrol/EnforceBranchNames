@@ -1,3 +1,3 @@
-const enforce = require('node-current-branch')
+const enforce = require('./export')
 
 enforce()
