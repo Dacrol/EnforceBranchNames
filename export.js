@@ -1,4 +1,4 @@
-const branch = require('./node-current-branch/get-branch')
+const branch = require('node-current-branch')
 
 module.exports = () => {
   const branchName = branch()
