@@ -1,13 +1,4 @@
-const stdin = process.openStdin();
-let content = '';
+const branch = require('./node-current-branch/get-branch')
 
-stdin.addListener('data', d => {
-  content += d.toString();
-});
-
-stdin.addListener('end', () => {
-  console.info(`Input: ${content}`);
-});
-
-console.log('---\nGit Params: ' + process.env.GIT_PARAMS + '\n---')
+console.log('---\nGit branch: ' + branch() + '\n---')
 process.exit(0)
