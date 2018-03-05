@@ -1,10 +1,12 @@
 {
-  "name": "enforce-branch-names",
-  "version": "0.0.0",
-  "main": "enforce.js",
+  "name": "enforce-gitflow-branches",
+  "version": "1.0.0",
+  "main": "export.js",
   "author": "Dacrol <jonas.ahrens@gmail.com>",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "node-current-branch": "^1.0.1"
+  },
   "devDependencies": {
     "eslint": "^4.14.0",
     "eslint-config-standard": "^11.0.0-beta.0",
@@ -14,9 +16,9 @@
     "eslint-plugin-standard": "^3.0.1",
     "husky": "^0.15.0-rc.8"
   },
+  "scripts": {},
   "husky": {
     "hooks": {
-      "pre-commit": "node enforce.js",
       "pre-push": "node enforce.js"
     }
   },

@@ -1,1 +1,3 @@
-console.log('Git Params: ' + process.env.GIT_PARAMS)
+const enforce = require('./export')
+
+enforce()
