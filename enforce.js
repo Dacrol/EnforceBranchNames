@@ -12,7 +12,7 @@ if (
 ) {
   console.log(
     `---
-Branch name: \x1b[34m%s\x1b[0m (Valid)
+Branch name: \x1b[36m%s\x1b[0m (Valid)
 ---`,
     branchName
   )
