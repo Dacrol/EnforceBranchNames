@@ -1,0 +1,3 @@
+[submodule "node-current-branch"]
+	path = node-current-branch
+	url = https://github.com/Dacrol/node-current-branch.git
