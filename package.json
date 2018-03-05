@@ -14,9 +14,15 @@
     "eslint-plugin-standard": "^3.0.1",
     "husky": "^0.15.0-rc.8"
   },
+  "scripts": {
+  },
   "husky": {
     "hooks": {
       "pre-commit": "node enforce.js",
+      "push-to-checkout": "node enforce.js",
+      "update": "node enforce.js",
+      "post-checkout": "node enforce.js",
+      "pre-receive": "node enforce.js",
       "pre-push": "node enforce.js"
     }
   },
