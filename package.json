@@ -30,5 +30,8 @@
   "bugs": {
     "url": "https://github.com/Dacrol/EnforceBranchNames/issues"
   },
-  "homepage": "https://github.com/Dacrol/EnforceBranchNames#readme"
+  "homepage": "https://github.com/Dacrol/EnforceBranchNames#readme",
+  "bin": {
+    "enforce-gitflow-branches": "./bin/enforce.js"
+  }
 }
