@@ -9,7 +9,7 @@ module.exports = () => {
     branchName.startsWith('hotfix/') ||
     branchName === 'master' ||
     branchName === 'develop' ||
-    branchName.startsWith('experimental')
+    branchName.startsWith('experiment')
   ) {
     console.log(
       `---
