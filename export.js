@@ -8,6 +8,7 @@ module.exports = () => {
     branchName.startsWith('release/') ||
     branchName.startsWith('hotfix/') ||
     branchName.startsWith('experiment/') ||
+    branchName.startsWith('fix/') ||
     branchName === 'master' ||
     branchName === 'develop' ||
     branchName === 'experimental'
