@@ -1,4 +1,4 @@
-Enforces Git branch names according to the [Git Flow](http://nvie.com/posts/a-successful-git-branching-model/) branching model.
+Enforces Git branch names according to the (extended) [Git Flow](http://nvie.com/posts/a-successful-git-branching-model/) branching model.
 
 Usage:
 
